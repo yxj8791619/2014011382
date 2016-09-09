@@ -99,20 +99,28 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
     }
     public void showPopup(View v) {
         PopupMenu popup = new PopupMenu(this, v);
+        popup.setOnMenuItemClickListener(this);
         popup.inflate(R.menu.menu_popup);
         popup.show();
     }
     @Override
-    public boolean onMenuItemClick(MenuItem item) {
-        switch (item.getItemId()) {
+    public boolean onMenuItemClick(MenuItem menuItem) {
+        switch (menuItem.getItemId()) {
             case R.id.action_settings:
-                Toast.makeText(this, "settings", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "settings",
+                        Toast.LENGTH_SHORT).show();
+                TextView txt_settings =(TextView)findViewById(R.id.textView_popupmenu);
+                txt_settings.setText("用户点击了设置选项");
                 break;
             case R.id.menu_another:
-                Toast.makeText(this, "another", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "another",
+                        Toast.LENGTH_SHORT).show();
+                TextView txt_another =(TextView)findViewById(R.id.textView_popupmenu);
+                txt_another.setText("用户点击了其它选项");
                 break;
         }
         return false;
     }
+
 
 }
