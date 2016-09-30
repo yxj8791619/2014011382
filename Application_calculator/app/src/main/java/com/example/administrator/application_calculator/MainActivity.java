@@ -126,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
     public void h(View v){
         TextView text=(TextView)findViewById(R.id.textView);
         txt += "/100";
+        dotmark = 0;
         text.setText(txt);
     }
     public void delete(View v){
@@ -165,6 +166,7 @@ public class MainActivity extends AppCompatActivity {
             txt += "-";
         }
         mark = 1;
+        dotmark = 0;
         text.setText(txt);
     }
 public void X(View v){
@@ -176,6 +178,7 @@ public void X(View v){
         txt += "*";
     }
     mark = 1;
+    dotmark = 0;
     text.setText(txt);
 
 }
@@ -188,6 +191,7 @@ public void X(View v){
             txt += "/";
         }
         mark = 1;
+        dotmark = 0;
         text.setText(txt);
     }
     public void result(View v) {

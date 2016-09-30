@@ -11,10 +11,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
-
+private String TAG = "tag";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.i("1","log1");
+        Log.i(TAG,"log1");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -28,12 +28,12 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        Log.i("1","log3");
+        Log.v(TAG,"log2");
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        Log.i("1","log2");
+        Log.d(TAG,"log3");
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
