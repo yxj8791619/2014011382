@@ -47,7 +47,7 @@
         jar="C:\Users\Administrator\AndroidStudioProjects\Application18\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.1"
-        sha1="a060b6f00032426d17346299b3d2beff52916939">
+        sha1="375cd70e9149758b200e10ffdabe10ef85f5bc34">
         <dex dex="C:\Users\Administrator\AndroidStudioProjects\Application18\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_62859b181c5abe0600504b668181e7b93bb3a428\classes.dex" />
     </item>
     <item
@@ -131,7 +131,7 @@
         jar="C:\Users\Administrator\AndroidStudioProjects\Application18\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="24.0.1"
-        sha1="b9e7096bd70f4ee72e6ea02da8a56aa1b7ea074e">
+        sha1="34285c9d52274aab0e6ffb661e9c8f2d84263d80">
         <dex dex="C:\Users\Administrator\AndroidStudioProjects\Application18\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_94535d8a7241c5ddc583868d7cb4bd7c88c59b52\classes.dex" />
     </item>
 
