@@ -1,4 +1,4 @@
-package com.forpoint.sharedpreferences;
+package com.example.application_sharedpreferences;
 
 import org.junit.Test;
 
